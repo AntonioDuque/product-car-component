@@ -1,0 +1,130 @@
+.card {
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    
+}
+  
+.card p {
+    
+    font-size: 1rem;
+    width: 300px;
+    background-color: white;
+    color:hsl(228, 12%, 48%);
+    padding: 0px 20px 0px 20px;
+    text-align: start;
+  }
+
+.card h4{
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: hsl(228, 12%, 48%);
+    padding-bottom: 15px;
+    margin-right: 155px;
+  }
+
+.card h1{
+    
+    font-size: 2.2rem;
+    position: relative;
+    right: 30px;
+    font-family: 'Fraunces';
+    color : hsl(212, 21%, 14%);
+    padding-block: 10px;
+}
+
+.card button{
+    
+    font-weight: 700;
+    width: 260px;
+    color:hsl(0, 0%, 100%);
+    padding: 1rem;
+    cursor: pointer;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+}
+
+.card button:hover{
+    background-color:hsl(157, 37%, 15%)
+}
+
+.image{
+    display: block;
+    width:320px;
+    border-radius: 10px 0 0 10px;
+    
+     
+}
+
+.card h3 {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces';
+    margin-top: 38px;
+    font-size: 2rem;
+    margin-right: 65px;
+}
+
+small{
+    position: relative;
+    bottom:7px;
+    font-weight: 500;
+    text-decoration: line-through;
+    color:hsl(228, 12%, 48%);
+    font-size: 0.8rem;
+    
+}
+
+.icon{
+    margin-right: 0.55rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 320px;
+}
+
+@media screen and (max-width:768px){
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card h1{
+        font-size: 1.8rem;
+        margin-right:55px;
+        margin-bottom: 10px;
+
+    }
+
+
+    .image{
+        width: 340px;
+        height: 340px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card h3{
+       position: relative;
+        bottom: 10px;
+    }
+
+    .info{
+        width: 250px;
+        padding-top:20px;
+        
+    }
+
+   
+}
