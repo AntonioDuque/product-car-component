@@ -99,30 +99,62 @@ small{
     .card{
         display: flex;
         flex-direction: column;
+       
     }
 
     .card h1{
-        font-size: 1.8rem;
+        font-size: 1rem;
         margin-right:55px;
         margin-bottom: 10px;
+        
 
+    }
+
+    .card h4{
+        font-size: 0.5rem;
+        margin-right: 85px;
+        padding: 0;
+    }
+
+    .card p{
+        width: 190px;
+        text-align: start;
+        font-size: 0.55rem;
     }
 
 
     .image{
-        width: 340px;
+        width: 240px;
         height: 340px;
         border-radius: 10px 10px 0 0;
     }
 
     .card h3{
-       position: relative;
-        bottom: 10px;
+      font-size: 1rem;
+      margin-left: 25px;
+
+    }
+
+    .card small{
+        font-size: 0.65rem;
+        position: relative;
+        bottom: 4px;
+    }
+
+    .card h1{
+        margin-right: 4px;
+    }
+
+    .card button{
+        width: 160px;
+        margin-bottom: 25px;
     }
 
     .info{
-        width: 250px;
-        padding-top:20px;
+        width: 140px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
         
     }
 
