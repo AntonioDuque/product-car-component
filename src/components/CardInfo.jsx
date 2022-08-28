@@ -7,7 +7,7 @@ export const CardInfo = () => {
 
       <picture>
 
-      <source media="(max-width: 768px)" srcset="./images/image-product-mobile.jpg"></source>
+      <source media="(max-width: 768px)" srcSet="./images/image-product-mobile.jpg"></source>
       <img
         className={styles.image}
         src="./images/image-product-desktop.jpg"
